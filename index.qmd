@@ -13,6 +13,7 @@ The Doctoral Urban Planning seminar is a platform for the intellectual developme
 
 source("R/cycle-diagram.R")
 source("R/course-meta.R")
+source("R/sessions.R")
 
 # ── Which phase is this semester? ───────────────────────────────────────────
 # The diagram is generated from this; nothing else needs editing when the
@@ -49,18 +50,19 @@ This semester focuses on **Writing Your First Article** — developing publishab
 
 **Fall 2026: Writing Your First Article**
 
-- **`r meeting_line(FALL_START)`** — `r date_span(FALL_START, 15)`
+- **`r meeting_line(FALL_START)`** — `r date_span(FALL_START, nrow(fall_sessions))`
 
-- 5 core workshops on article writing, journal targeting, argumentation, peer review, and co-authorship
-- 5 rounds of peer presentations — informal, low-stakes research-in-progress talks
-- ACSP conference prep in Week 8
+- `r n_type(fall_sessions, "Workshop")` workshop sessions — including article writing, journal targeting, argumentation, peer review, and co-authorship
+- `r n_type(fall_sessions, "Presentation")` rounds of peer presentations — informal, low-stakes research-in-progress talks
+- ACSP conference prep in Week `r week_of(fall_sessions, "ACSP Prep")`; no seminar Week `r week_of(fall_sessions, "ACSP Conference")` during the conference
 - Annual CV check-in built into Week 1
 
 **Spring 2027: Writing Your Dissertation Proposal**
 
-- 5 core workshops on proposal structure, theoretical frameworks, methods, timelines, and defense strategies
-- Milestone presentations — Plan of Study, updated plans, and QRP/Exam content
-- ICUA/UAA conference prep in Week 13
+- **`r meeting_line(SPRING_START)`** — `r date_span(SPRING_START, nrow(spring_sessions))`
+- `r n_type(spring_sessions, "Workshop")` workshop sessions — including proposal structure, theoretical frameworks, methods, timelines, and defense strategies
+- `r n_type(spring_sessions, "Milestone")` milestone presentations — Plan of Study, updated plans, and QRP/Exam content
+- ICUA/UAA presentation practice in Week `r week_of(spring_sessions, "ICUA/UAA Presentation Practice")`; no seminar Week `r week_of(spring_sessions, "ICUA/UAA Conference")` during the conference
 
 ---
 

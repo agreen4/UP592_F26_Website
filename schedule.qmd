@@ -47,46 +47,7 @@ build_schedule <- function(start, sessions) {
   )
 }
 
-s <- function(type, topic, lead) {
-  data.frame(Type = type, Topic = topic, Lead = lead,
-             stringsAsFactors = FALSE)
-}
-
-fall_sessions <- rbind(
-  s("Workshop",     "Welcome, Agenda Setting &amp; Annual CV Check-In",     "Andrew"),
-  s("Workshop",     "From Seminar Paper to Journal Article",                "Andrew"),
-  s("Presentation", "Peer Research Presentations (Round 1)",                "All Students"),
-  s("Workshop",     "Targeting the Right Journal",                          "Andrew"),
-  s("Presentation", "Peer Research Presentations (Round 2)",                "All Students"),
-  s("Workshop",     "Crafting an Argument and Contribution",                "Andrew"),
-  s("Presentation", "Peer Research Presentations (Round 3)",                "All Students"),
-  s("Workshop",     "ACSP Prep: Abstracts, Posters, Conference Strategy",   "Andrew"),
-  s("Presentation", "Peer Research Presentations (Round 4)",                "All Students"),
-  s("Workshop",     "Responding to Peer Review",                            "Andrew"),
-  s("Presentation", "Peer Research Presentations (Round 5)",                "All Students"),
-  s("Workshop",     "Co-authorship and Collaboration",                      "Andrew"),
-  s("Student",      "TBD: Student-Initiated Session",                       "Students"),
-  s("Break",        "Thanksgiving Break",                                   "&mdash;"),
-  s("Synthesis",    "Semester Reflection &amp; Spring Preview",             "All")
-)
-
-spring_sessions <- rbind(
-  s("Workshop",   "Welcome Back &amp; Spring Agenda Setting",               "Andrew"),
-  s("Workshop",   "Proposal Structure &amp; Qualifying Packet / Exam",      "Andrew"),
-  s("Milestone",  "Plan of Study Presentation (First-Year)",                "Cohort B"),
-  s("Workshop",   "Theoretical Framework Development",                      "Andrew"),
-  s("Milestone",  "Updated Plan of Study &amp; Annotated Bibliography",     "Cohort A"),
-  s("Workshop",   "Methods Alignment and Justification",                    "Andrew"),
-  s("Milestone",  "Qualifying Packet / Exam Content (Student 1)",           "Cohort A"),
-  s("Workshop",   "Timeline, Feasibility &amp; Risk Management",            "Andrew"),
-  s("Break",      "Spring Break",                                           "&mdash;"),
-  s("Milestone",  "Qualifying Packet / Exam Content (Student 2)",           "Cohort A"),
-  s("Workshop",   "Defending Your Work: Mock Defense / Exam Strategies",    "Andrew"),
-  s("Student",    "TBD: Student-Initiated Session",                         "Students"),
-  s("Conference", "ICUA/UAA Presentation Practice",                         "Students"),
-  s("Break",      "ICUA/UAA Conference",                                    "&mdash;"),
-  s("Synthesis",  "End of Year Celebration",                                "All")
-)
+source("R/sessions.R")
 
 tbl <- function(df) {
   knitr::kable(df, escape = FALSE, align = c("c", "l", "l", "l", "l"))
@@ -106,7 +67,7 @@ tbl <- function(df) {
 tbl(build_schedule(fall_start, fall_sessions))
 ```
 
-**Notes:** Core workshops alternate with student presentations. Week 13 is reserved for student-determined content. The final session connects fall article work to spring proposal development.
+**Notes:** Core workshops alternate with student presentations. No seminar the week of ACSP (Oct 8&ndash;10, Pittsburgh); conference prep runs the week before. Week 13 is reserved for student-determined content. The final session connects fall article work to spring proposal development.
 
 ---
 
@@ -123,7 +84,7 @@ tbl(build_schedule(fall_start, fall_sessions))
 tbl(build_schedule(spring_start, spring_sessions))
 ```
 
-**Notes:** Milestone sessions accommodate both QRP and qualifying exam students. Week 12 is reserved for student-determined content. The seminar serves first- and second-year students together — Cohort A milestones are second-year work, Cohort B first-year.
+**Notes:** Milestone sessions accommodate both QRP and qualifying exam students. No seminar over spring break, or the week of ICUA/UAA (Apr 14&ndash;16, New York); presentation practice runs the week before. Week 14 is reserved for student-determined content. The seminar serves first- and second-year students together — Cohort A milestones are second-year work, Cohort B first-year.
 
 ---
 
