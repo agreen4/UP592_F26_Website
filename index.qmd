@@ -7,19 +7,33 @@ subtitle: "Fall 2026 & Spring 2027"
 
 The Doctoral Urban Planning seminar is a platform for the intellectual development of PhD students in the Department of Urban & Regional Planning. The seminar provides a shared space for students to present their research and to solicit critical, yet constructive, peer reviews and advice.
 
+```{r}
+#| label: cycle-setup
+#| include: false
+
+source("R/cycle-diagram.R")
+
+# ── Which phase is this semester? ───────────────────────────────────────────
+# The diagram is generated from this; nothing else needs editing when the
+# rotation advances. Standalone copies for slides/handouts:
+#   Rscript scripts/build-cycle-diagrams.R
+current_phase <- 1
+semester      <- "Fall 2026"
+```
+
 ## The Seminar Cycle
 
 The seminar is built around a **four-semester cycle** of workshops. Students cycle through all four phases during their pre-candidacy coursework.
 
-| Phase | Focus | When |
-|-------|-------|------|
-| **Phase 1** | Writing Your First Article | Fall |
-| **Phase 2** | Writing for Funding | Fall (alternating) |
-| **Phase 3** | Writing Your Dissertation Proposal | Spring |
-| **Phase 4** | Developing Your Academic Brand | Spring (alternating) |
+```{r}
+#| label: cycle-diagram
+#| echo: false
+#| results: asis
+cat(cycle_diagram_svg(current_phase, semester))
+```
 
 ::: {.callout-note}
-## Current Semester: Fall 2026
+## Current Semester: `r semester`
 
 This semester focuses on **Writing Your First Article** — developing publishable scholarship from coursework and early research.
 :::
