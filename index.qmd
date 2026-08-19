@@ -12,6 +12,7 @@ The Doctoral Urban Planning seminar is a platform for the intellectual developme
 #| include: false
 
 source("R/cycle-diagram.R")
+source("R/course-meta.R")
 
 # ── Which phase is this semester? ───────────────────────────────────────────
 # The diagram is generated from this; nothing else needs editing when the
@@ -47,6 +48,8 @@ This semester focuses on **Writing Your First Article** — developing publishab
 ## This Semester at a Glance
 
 **Fall 2026: Writing Your First Article**
+
+- **`r meeting_line(FALL_START)`** — `r date_span(FALL_START, 15)`
 
 - 5 core workshops on article writing, journal targeting, argumentation, peer review, and co-authorship
 - 5 rounds of peer presentations — informal, low-stakes research-in-progress talks

@@ -3,7 +3,16 @@ title: "Syllabus"
 subtitle: "UP 592: Doctoral Urban Planning Seminar"
 ---
 
+```{r}
+#| label: meta
+#| include: false
+source("R/course-meta.R")
+```
+
 ## Course Information
+
+**Meets:** `r meeting_line(FALL_START)`
+`r date_span(FALL_START, 15)`
 
 The Doctoral Urban Planning seminar is a platform for the intellectual development for PhD students in the Department of Urban & Regional Planning and part of the program's strategy for building a thriving and successful community of scholars. The seminars facilitate exchange of ideas and perspectives among doctoral students, faculty, and others working to support academic research and practice.
 

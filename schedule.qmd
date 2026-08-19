@@ -16,8 +16,9 @@ subtitle: "Week-by-week session plans"
 # so a wrong day is visible on the page rather than buried in a table.
 # ─────────────────────────────────────────────────────────────────────────────
 
-fall_start   <- as.Date("2026-08-25")   # Week 1, Fall 2026
-spring_start <- as.Date("2027-01-19")   # Week 1, Spring 2027
+source("R/course-meta.R")
+fall_start   <- FALL_START
+spring_start <- SPRING_START
 
 # Session type -> CSS badge class (see styles.css)
 badge_class <- c(
@@ -44,15 +45,6 @@ build_schedule <- function(start, sessions) {
     check.names = FALSE,
     stringsAsFactors = FALSE
   )
-}
-
-# Human-readable span, e.g. "Tuesdays · August 25 – December 1, 2026"
-phase_span <- function(start, n) {
-  last <- start + 7 * (n - 1)
-  sprintf("%ss · %s – %s",
-          format(start, "%A"),
-          trimws(format(start, "%B %e")),
-          trimws(format(last, "%B %e, %Y")))
 }
 
 s <- function(type, topic, lead) {
@@ -105,7 +97,7 @@ tbl <- function(df) {
 
 ::: {.phase-header}
 ### Phase 1: Writing Your First Article
-`r phase_span(fall_start, nrow(fall_sessions))`
+`r meeting_line(fall_start)`<br>`r date_span(fall_start, nrow(fall_sessions))`
 :::
 
 ```{r}
@@ -122,7 +114,7 @@ tbl(build_schedule(fall_start, fall_sessions))
 
 ::: {.phase-header}
 ### Phase 3: Writing Your Dissertation Proposal
-`r phase_span(spring_start, nrow(spring_sessions))`
+`r meeting_line(spring_start)`<br>`r date_span(spring_start, nrow(spring_sessions))`
 :::
 
 ```{r}
