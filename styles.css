@@ -106,6 +106,18 @@ a:hover {
   font-size: 0.8rem;
 }
 
+.badge-synthesis {
+  color: #087990;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.badge-conference {
+  color: #b02a37;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
 /* Phase header — simple colored block */
 .phase-header {
   background-color: #f8f9fa;

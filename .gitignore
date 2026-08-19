@@ -2,3 +2,5 @@ _site/
 .quarto/
 .Rproj.user/
 .DS_Store
+
+/.quarto/
