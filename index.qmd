@@ -1,0 +1,50 @@
+---
+title: "UP 592: Doctoral Urban Planning Seminar"
+subtitle: "Fall 2026 & Spring 2027"
+---
+
+## Welcome
+
+The Doctoral Urban Planning seminar is a platform for the intellectual development of PhD students in the Department of Urban & Regional Planning. The seminar provides a shared space for students to present their research and to solicit critical, yet constructive, peer reviews and advice.
+
+## The Seminar Cycle
+
+The seminar is built around a **four-semester cycle** of workshops. Students cycle through all four phases during their pre-candidacy coursework.
+
+| Phase | Focus | When |
+|-------|-------|------|
+| **Phase 1** | Writing Your First Article | Fall |
+| **Phase 2** | Writing for Funding | Fall (alternating) |
+| **Phase 3** | Writing Your Dissertation Proposal | Spring |
+| **Phase 4** | Developing Your Academic Brand | Spring (alternating) |
+
+::: {.callout-note}
+## Current Semester: Fall 2026
+
+This semester focuses on **Writing Your First Article** — developing publishable scholarship from coursework and early research.
+:::
+
+## Quick Links
+
+- **[Syllabus](syllabus.qmd)** — Course information, policies, and expectations
+- **[Schedule](schedule.qmd)** — Week-by-week session plans for Fall 2026 and Spring 2027
+- **[Resources](resources.qmd)** — Links, templates, and tools for doctoral students
+
+## This Semester at a Glance
+
+**Fall 2026: Writing Your First Article**
+
+- 5 core workshops on article writing, journal targeting, argumentation, peer review, and co-authorship
+- 5 rounds of peer presentations — informal, low-stakes research-in-progress talks
+- ACSP conference prep in Week 8
+- Annual CV check-in built into Week 1
+
+**Spring 2027: Writing Your Dissertation Proposal**
+
+- 5 core workshops on proposal structure, theoretical frameworks, methods, timelines, and defense strategies
+- Milestone presentations — Plan of Study, updated plans, and QRP/Exam content
+- ICUA/UAA conference prep in Week 13
+
+---
+
+*Last updated: July 2026*

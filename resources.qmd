@@ -1,0 +1,42 @@
+---
+title: "Resources"
+subtitle: "Tools, templates, and links for doctoral students"
+---
+
+## Writing & Publishing
+
+- [They Say / I Say](https://wwnorton.com/books/9780393538700) — Gerald Graff & Cathy Birkenstein
+- [How to Write a Lot](https://www.apa.org/pubs/books/4311024) — Paul Silvia
+- [The Craft of Research](https://press.uchicago.edu/ucp/books/book/chicago/C/bo22271680.html) — Wayne Booth et al.
+- [Journal Citation Reports](https://jcr.clarivate.com/)
+- [Think. Check. Submit.](https://thinkchecksubmit.org/)
+- [Zotero](https://www.zotero.org/) — Free reference manager
+
+## Funding & Grants
+
+- [NSF Graduate Research Fellowship Program](https://www.nsfgrfp.org/)
+- [SPIN Database](https://spin.infoedglobal.com/) (UIUC access)
+- [Grants.gov](https://www.grants.gov/)
+
+## Conferences
+
+- [ACSP](https://www.acsp.org/) — Association of Collegiate Schools of Planning (Fall)
+- [UAA / ICUA](https://www.urbanaffairsassociation.org/) — Urban Affairs Association (Spring)
+- [APA](https://www.planning.org/) — American Planning Association
+
+## Career & Identity
+
+- [The Professor Is In](https://theprofessorisin.com/) — Karen Kelsky
+- [The Conversation](https://theconversation.com/) — Academic op-eds
+
+## University Resources
+
+- **DRES:** 1207 S. Oak St. | (217) 333-4603 | [disability@illinois.edu](mailto:disability@illinois.edu)
+- **Counseling Center:** (217) 333-3704
+- **McKinley Health Center:** (217) 333-2700
+- **988 Suicide and Crisis Lifeline:** (800) 273-8255
+- [Writer's Workshop](https://writersworkshop.illinois.edu/)
+
+---
+
+*Last updated: July 2026*

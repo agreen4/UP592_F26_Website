@@ -1,0 +1,74 @@
+---
+title: "Schedule"
+subtitle: "Week-by-week session plans"
+---
+
+## Fall 2026
+
+::: {.phase-header}
+### Phase 1: Writing Your First Article
+August 25 – December 1, 2026
+:::
+
+| Week | Date | Type | Topic | Lead |
+|:----:|:-----|:-----|:------|:-----|
+| 1 | Aug 25 | <span class="badge-core">Workshop</span> | Welcome, Agenda Setting & Annual CV Check-In | Andrew |
+| 2 | Sep 1 | <span class="badge-core">Workshop</span> | From Seminar Paper to Journal Article | Andrew |
+| 3 | Sep 8 | <span class="badge-presentation">Presentation</span> | Peer Research Presentations (Round 1) | All Students |
+| 4 | Sep 15 | <span class="badge-core">Workshop</span> | Targeting the Right Journal | Andrew |
+| 5 | Sep 22 | <span class="badge-presentation">Presentation</span> | Peer Research Presentations (Round 2) | All Students |
+| 6 | Sep 29 | <span class="badge-core">Workshop</span> | Crafting an Argument and Contribution | Andrew |
+| 7 | Oct 6 | <span class="badge-presentation">Presentation</span> | Peer Research Presentations (Round 3) | All Students |
+| 8 | Oct 13 | <span class="badge-core">Workshop</span> | ACSP Prep: Abstracts, Posters, Conference Strategy | Andrew |
+| 9 | Oct 20 | <span class="badge-presentation">Presentation</span> | Peer Research Presentations (Round 4) | All Students |
+| 10 | Oct 27 | <span class="badge-core">Workshop</span> | Responding to Peer Review | Andrew |
+| 11 | Nov 3 | <span class="badge-presentation">Presentation</span> | Peer Research Presentations (Round 5) | All Students |
+| 12 | Nov 10 | <span class="badge-core">Workshop</span> | Co-authorship and Collaboration | Andrew |
+| 13 | Nov 17 | <span class="badge-student">Student</span> | TBD: Student-Initiated Session | Students |
+| 14 | Nov 24 | <span class="badge-break">Break</span> | Thanksgiving Break | — |
+| 15 | Dec 1 | <span class="badge-core">Synthesis</span> | Semester Reflection & Spring Preview | All |
+
+**Notes:** Core workshops alternate with student presentations. Week 13 is reserved for student-determined content. The final session connects fall article work to spring proposal development.
+
+---
+
+## Spring 2027
+
+::: {.phase-header}
+### Phase 3: Writing Your Dissertation Proposal
+January 19 – April 27, 2027
+:::
+
+| Week | Date | Type | Topic | Lead |
+|:----:|:-----|:-----|:------|:-----|
+| 1 | Jan 19 | <span class="badge-core">Workshop</span> | Welcome Back & Spring Agenda Setting | Andrew |
+| 2 | Jan 26 | <span class="badge-core">Workshop</span> | Proposal Structure & Qualifying Packet / Exam | Andrew |
+| 3 | Feb 2 | <span class="badge-milestone">Milestone</span> | Plan of Study Presentation (First-Year) | Cohort B |
+| 4 | Feb 9 | <span class="badge-core">Workshop</span> | Theoretical Framework Development | Andrew |
+| 5 | Feb 16 | <span class="badge-milestone">Milestone</span> | Updated Plan of Study & Annotated Bibliography | Cohort A |
+| 6 | Feb 23 | <span class="badge-core">Workshop</span> | Methods Alignment and Justification | Andrew |
+| 7 | Mar 2 | <span class="badge-milestone">Milestone</span> | Qualifying Packet / Exam Content (Student 1) | Cohort A |
+| 8 | Mar 9 | <span class="badge-core">Workshop</span> | Timeline, Feasibility & Risk Management | Andrew |
+| 9 | Mar 16 | <span class="badge-break">Break</span> | Spring Break | — |
+| 10 | Mar 23 | <span class="badge-milestone">Milestone</span> | Qualifying Packet / Exam Content (Student 2) | Cohort A |
+| 11 | Mar 30 | <span class="badge-core">Workshop</span> | Defending Your Work: Mock Defense / Exam Strategies | Andrew |
+| 12 | Apr 6 | <span class="badge-student">Student</span> | TBD: Student-Initiated Session | Students |
+| 13 | Apr 13 | <span class="badge-core">Conference</span> | ICUA/UAA Presentation Practice | Students |
+| 14 | Apr 20 | <span class="badge-break">Break</span> | ICUA/UAA Conference | — |
+| 15 | Apr 27 | <span class="badge-core">Synthesis</span> | End of Year Celebration | All |
+
+**Notes:** Milestone sessions accommodate both QRP and qualifying exam students. Week 12 is reserved for student-determined content.
+
+---
+
+## Session Types
+
+- **<span class="badge-core">Workshop</span>** — Facilitated session on the semester's phase topic
+- **<span class="badge-presentation">Presentation</span>** — Informal research-in-progress talk
+- **<span class="badge-milestone">Milestone</span>** — Formal milestone presentation (Plan of Study, QRP, etc.)
+- **<span class="badge-student">Student</span>** — Content determined by seminar participants
+- **<span class="badge-break">Break</span>** — No seminar (holiday or conference)
+
+---
+
+*Schedule subject to change based on student needs and conference dates.*

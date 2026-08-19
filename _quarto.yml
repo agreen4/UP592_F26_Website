@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "UP 592: Doctoral Urban Planning Seminar"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: schedule.qmd
+        text: Schedule
+      - href: resources.qmd
+        text: Resources
+    right:
+      - text: "Fall 2026"
+        href: schedule.qmd#fall-2026
+      - text: "Spring 2027"
+        href: schedule.qmd#spring-2027
+  page-footer:
+    left: "UP 592: Doctoral Urban Planning Seminar"
+    center: "University of Illinois at Urbana-Champaign"
+    right: "Department of Urban & Regional Planning"
+  search: 
+    location: navbar
+    type: textbox
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    css: styles.css
+
+execute:
+  freeze: auto
