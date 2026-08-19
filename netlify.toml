@@ -1,0 +1,13 @@
+# Netlify installs Quarto via this plugin; the build command and publish
+# directory come from _quarto.yml (output-dir: _site).
+#
+# NOTE: this site uses R code chunks, and Netlify's build image has no R.
+# It works because _quarto.yml sets `execute: freeze: auto` and _freeze/ is
+# committed — Quarto replays the cached results instead of running R.
+#
+# ⇒ After editing any .qmd, run `quarto render` LOCALLY and commit the
+#   updated _freeze/ along with your change. Pushing a .qmd edit without a
+#   fresh freeze makes Netlify try to execute R, and the build fails.
+
+[[plugins]]
+package = "@quarto/netlify-plugin-quarto"

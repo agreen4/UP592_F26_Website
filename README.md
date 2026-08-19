@@ -50,12 +50,22 @@ up592-website/
 3. Drag and drop the `_site` folder
 4. Your site is live!
 
-### Option 2: Netlify with Git
+### Option 2: Netlify with Git (this repo's setup)
 
-1. Push this folder to a GitHub repository
-2. Connect the repo to Netlify
-3. Set build command: `quarto render`
-4. Set publish directory: `_site`
+`netlify.toml` + `package.json` install Quarto on Netlify via
+`@quarto/netlify-plugin-quarto`. Connect the repo at
+<https://app.netlify.com/start> and pick it — build command and publish
+directory come from `_quarto.yml` (`output-dir: _site`), so nothing needs
+setting by hand.
+
+**⚠ This site executes R code** (`schedule.qmd`, `index.qmd`, `syllabus.qmd`
+source files in `R/`). Netlify's build image has no R. Builds succeed because
+`_quarto.yml` sets `execute: freeze: auto` and `_freeze/` is committed —
+Quarto replays cached results rather than running R.
+
+**So: after editing any `.qmd`, run `quarto render` locally and commit the
+updated `_freeze/` with your change.** Pushing a `.qmd` edit without a fresh
+freeze makes Netlify try to execute R, and the build fails.
 
 ### Option 3: GitHub Pages
 
@@ -66,14 +76,33 @@ up592-website/
 
 ### Updating Content
 
-All content is written in Markdown (`.qmd` files). Edit the files directly:
+Most things are **derived**, so edit the source of truth rather than the page:
 
-- **Schedule changes:** Edit `schedule.qmd`
-- **Syllabus updates:** Edit `syllabus.qmd`
-- **Resources:** Edit `resources.qmd`
-- **Homepage:** Edit `index.qmd`
+| To change | Edit |
+|---|---|
+| Meeting day, time, location; semester start dates | `R/course-meta.R` |
+| What happens each week (topics, session types, leads) | `R/sessions.R` |
+| Which phase is current on the homepage diagram | `current_phase` in `index.qmd` |
+| The cycle diagram itself | `R/cycle-diagram.R` |
+| Prose, resources, policies | `index.qmd`, `syllabus.qmd`, `resources.qmd` |
 
-After editing, run `quarto render` to regenerate the site.
+Session **dates are computed** as `start + 7 * (week - 1)` from the two start
+dates in `R/course-meta.R` — moving the seminar to a different day is a
+one-line change, not 30 edits. The meeting day shown on the site is read back
+off the start date, so a start date that is not the stated day will contradict
+itself visibly rather than silently.
+
+Homepage "at a glance" counts are computed from `R/sessions.R`, so adding or
+removing a session cannot leave a stale count behind.
+
+Standalone per-phase cycle diagrams for slides and handouts:
+
+```bash
+Rscript scripts/build-cycle-diagrams.R
+```
+
+After editing, run `quarto render` and commit `_freeze/` (see the Netlify note
+above).
 
 ### Design Changes
 
