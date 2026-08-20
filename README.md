@@ -63,9 +63,21 @@ source files in `R/`). Netlify's build image has no R. Builds succeed because
 `_quarto.yml` sets `execute: freeze: auto` and `_freeze/` is committed —
 Quarto replays cached results rather than running R.
 
-**So: after editing any `.qmd`, run `quarto render` locally and commit the
-updated `_freeze/` with your change.** Pushing a `.qmd` edit without a fresh
-freeze makes Netlify try to execute R, and the build fails.
+**So: after editing any source file, render locally and commit the updated
+`_freeze/` with your change.**
+
+⚠ **The freeze hashes the `.qmd` only.** Editing anything under `R/` — which is
+where the dates, the session table and the cycle diagram now live — does *not*
+invalidate it, and a plain `quarto render` will replay the stale results
+without complaint. There are also **two** caches (`_freeze/` and
+`.quarto/_freeze/`); clearing one is not enough. Always render with:
+
+```bash
+./scripts/render.sh
+```
+
+which clears both and re-executes. Then commit `_freeze/` along with your
+change.
 
 ### Option 3: GitHub Pages
 
@@ -101,8 +113,9 @@ Standalone per-phase cycle diagrams for slides and handouts:
 Rscript scripts/build-cycle-diagrams.R
 ```
 
-After editing, run `quarto render` and commit `_freeze/` (see the Netlify note
-above).
+After editing, run `./scripts/render.sh` and commit `_freeze/` (see the
+Netlify note above — a plain `quarto render` will not pick up changes made
+under `R/`).
 
 ### Design Changes
 

@@ -5,9 +5,18 @@
 # It works because _quarto.yml sets `execute: freeze: auto` and _freeze/ is
 # committed — Quarto replays the cached results instead of running R.
 #
-# ⇒ After editing any .qmd, run `quarto render` LOCALLY and commit the
-#   updated _freeze/ along with your change. Pushing a .qmd edit without a
-#   fresh freeze makes Netlify try to execute R, and the build fails.
+# ⇒ After editing ANY source file, render LOCALLY and commit the updated
+#   _freeze/ with your change. Pushing without a fresh freeze either fails the
+#   build (Netlify tries to execute R) or, worse, silently ships stale content.
+#
+# ⚠ The freeze hashes the .qmd ONLY. Editing a file under R/ — which is where
+#   the dates, the session table and the diagram now live — does NOT invalidate
+#   it, and a plain `quarto render` will happily replay the old results. Use:
+#
+#       ./scripts/render.sh          (or: rm -rf .quarto _freeze && quarto render)
+#
+#   Note there are TWO caches: _freeze/ and .quarto/_freeze/. Clearing only the
+#   first is not enough.
 
 [[plugins]]
 package = "@quarto/netlify-plugin-quarto"
