@@ -1,6 +1,6 @@
 ---
 title: "Syllabus"
-subtitle: "UP 592: Doctoral Urban Planning Seminar"
+subtitle: "UP 592: Doctoral Seminar"
 ---
 
 ```{r}
@@ -14,13 +14,13 @@ source("R/course-meta.R")
 **Meets:** `r meeting_line(FALL_START)`
 `r date_span(FALL_START, 15)`
 
-The Doctoral Urban Planning seminar is a platform for the intellectual development for PhD students in the Department of Urban & Regional Planning and part of the program's strategy for building a thriving and successful community of scholars. The seminars facilitate exchange of ideas and perspectives among doctoral students, faculty, and others working to support academic research and practice.
+The Doctoral Seminar is a platform for the intellectual development for PhD students in the Department of Urban & Regional Planning and part of the program's strategy for building a thriving and successful community of scholars. The seminars facilitate exchange of ideas and perspectives among doctoral students, faculty, and others working to support academic research and practice.
 
 The seminar is designed to support the progress and success of doctoral students who are at different stages in their research and doctoral studies, and provides a shared space for students to present their research and to solicit critical, yet constructive, peer reviews and advice.
 
 ## Seminar Structure
 
-The Doctoral Urban Planning Seminar is designed to be a collaborative venture between seminar participants and the faculty facilitator. Faculty facilitation focuses on a **four-semester cycle** of seminar workshops designed to build skills and perspectives that will support scholarly and research practice. The assumption is that doctoral students will cycle through all four seminar workshops during their pre-candidacy coursework.
+The Doctoral Seminar is designed to be a collaborative venture between seminar participants and the faculty facilitator. Faculty facilitation focuses on a **four-semester cycle** of seminar workshops designed to build skills and perspectives that will support scholarly and research practice. The assumption is that doctoral students will cycle through all four seminar workshops during their pre-candidacy coursework.
 
 ### The Four-Phase Cycle
 

@@ -1,8 +1,8 @@
-# UP 592: Doctoral Urban Planning Seminar Website
+# UP 592: Doctoral Seminar — Website
 
 ## Overview
 
-This is a Quarto-based website for the UP 592 Doctoral Urban Planning Seminar. It uses a modernized academic design with a four-phase cycle structure.
+This is a Quarto-based website for the UP 592 Doctoral Seminar. It uses a modernized academic design with a four-phase cycle structure.
 
 ## Project Structure
 

@@ -115,7 +115,7 @@ cycle_diagram_svg <- function(current_phase = 1,
   cur <- PHASES[[current_phase]]
   sem_line <- if (!is.null(semester)) sprintf(
     '\n  <text x="%d" y="%d" text-anchor="middle" font-family="%s" font-size="12" font-weight="600" fill="%s">%s</text>',
-    cx, cy + 47, SANS, cur$color, semester) else ""
+    cx, cy + 27, SANS, cur$color, semester) else ""
 
   desc <- sprintf(
     "Four-phase doctoral seminar cycle: %s. Phase %d, %s, is the current semester%s.",
@@ -142,8 +142,7 @@ cycle_diagram_svg <- function(current_phase = 1,
   </defs>
 
   <text x="', cx, '" y="', cy - 25, '" text-anchor="middle" font-family="', SERIF, '" font-size="18" font-weight="700" fill="', NAVY, '">Doctoral Seminar</text>
-  <text x="', cx, '" y="', cy, '" text-anchor="middle" font-family="', SERIF, '" font-size="18" font-weight="700" fill="', NAVY, '">Workshop Sequence</text>
-  <text x="', cx, '" y="', cy + 25, '" text-anchor="middle" font-family="', SANS, '" font-size="12" fill="#5a5a5a">4-Phase Cycle</text>', sem_line, '
+  <text x="', cx, '" y="', cy, '" text-anchor="middle" font-family="', SERIF, '" font-size="18" font-weight="700" fill="', NAVY, '">Workshop Sequence</text>', sem_line, '
 
 ', paste(arcs, collapse = "\n"), '
 

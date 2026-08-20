@@ -1,11 +1,11 @@
 ---
-title: "UP 592: Doctoral Urban Planning Seminar"
+title: "UP 592: Doctoral Seminar"
 subtitle: "Fall 2026 & Spring 2027"
 ---
 
 ## Welcome
 
-The Doctoral Urban Planning seminar is a platform for the intellectual development of PhD students in the Department of Urban & Regional Planning. The seminar provides a shared space for students to present their research and to solicit critical, yet constructive, peer reviews and advice.
+The Doctoral Seminar is a platform for the intellectual development of PhD students in the Department of Urban & Regional Planning. The seminar provides a shared space for students to present their research and to solicit critical, yet constructive, peer reviews and advice.
 
 ```{r}
 #| label: cycle-setup

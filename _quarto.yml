@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "UP 592: Doctoral Urban Planning Seminar"
+  title: "UP 592: Doctoral Seminar"
   navbar:
     left:
       - href: index.qmd
@@ -20,7 +20,7 @@ website:
       - text: "Spring 2027"
         href: schedule.qmd#spring-2027
   page-footer:
-    left: "UP 592: Doctoral Urban Planning Seminar"
+    left: "UP 592: Doctoral Seminar"
     center: "University of Illinois at Urbana-Champaign"
     right: "Department of Urban & Regional Planning"
   search: 
