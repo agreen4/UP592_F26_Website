@@ -26,3 +26,9 @@ date_span <- function(start, n) {
           trimws(format(start, "%B %e")),
           trimws(format(last, "%B %e, %Y")))
 }
+
+# Render date, for the "Last updated" stamp. Derived rather than typed: the
+# hardcoded "July 2026" survived a full content rebuild and shipped stale.
+# With `freeze: auto` this only moves when the page is actually re-rendered,
+# which is the correct meaning of "last updated".
+last_updated <- function() trimws(format(Sys.Date(), "%B %e, %Y"))

@@ -3,11 +3,17 @@ title: "Resources"
 subtitle: "Tools, templates, and links for doctoral students"
 ---
 
+```{r}
+#| label: meta
+#| include: false
+source("R/course-meta.R")
+```
+
 ## Writing & Publishing
 
 - [They Say / I Say](https://wwnorton.com/books/9780393538700) — Gerald Graff & Cathy Birkenstein
 - [How to Write a Lot](https://www.apa.org/pubs/books/4311024) — Paul Silvia
-- [The Craft of Research](https://press.uchicago.edu/ucp/books/book/chicago/C/bo22271680.html) — Wayne Booth et al.
+- [The Craft of Research](https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008.html) — Wayne Booth et al.
 - [Journal Citation Reports](https://jcr.clarivate.com/)
 - [Think. Check. Submit.](https://thinkchecksubmit.org/)
 - [Zotero](https://www.zotero.org/) — Free reference manager
@@ -39,4 +45,4 @@ subtitle: "Tools, templates, and links for doctoral students"
 
 ---
 
-*Last updated: July 2026*
+*Last updated: `r last_updated()`*

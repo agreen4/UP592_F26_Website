@@ -46,7 +46,7 @@ spring_sessions <- rbind(
   s("Milestone",  "Qualifying Packet / Exam Content (Student 2)",           "Cohort A"),
   s("Workshop",   "Defending Your Work: Mock Defense / Exam Strategies",    "Andrew"),
   s("Conference", "ICUA/UAA Presentation Practice",                         "Students"),
-  s("Break",      "ICUA/UAA Conference (New York, Apr 14&#8211;16)",        "&mdash;"),
+  s("Break",      "ICUA/UAA Conference (New York, Apr 14&#8211;17)",        "&mdash;"),
   s("Student",    "TBD: Student-Initiated Session",                         "Students"),
   s("Synthesis",  "End of Year Celebration",                                "All")
 )
