@@ -4,3 +4,6 @@ _site/
 .DS_Store
 
 /.quarto/
+
+# Claude Code project instructions — local only, never published
+CLAUDE.md
