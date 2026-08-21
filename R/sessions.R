@@ -18,17 +18,17 @@ s <- function(type, topic, lead) {
 fall_sessions <- rbind(
   s("Workshop",     "Welcome, Agenda Setting &amp; Annual CV Check-In",     "Andrew"),
   s("Workshop",     "From Seminar Paper to Journal Article",                "Andrew"),
-  s("Presentation", "Peer Research Presentations (Round 1)",                "All Students"),
+  s("Presentation", "Peer Research Presentations (Round 1)",                "Zhenpeng Zhang"),
   s("Workshop",     "Targeting the Right Journal",                          "Andrew"),
-  s("Presentation", "Peer Research Presentations (Round 2)",                "All Students"),
+  s("Presentation", "Peer Research Presentations (Round 2)",                "Luisa Ponte"),
   s("Workshop",     "ACSP Prep: Abstracts, Posters, Conference Strategy",   "Andrew"),
   s("Break",        "ACSP Conference (Pittsburgh, Oct 8&#8211;10)",         "&mdash;"),
   s("Workshop",     "Crafting an Argument and Contribution",                "Andrew"),
-  s("Presentation", "Peer Research Presentations (Round 3)",                "All Students"),
+  s("Presentation", "Peer Research Presentations (Round 3)",                "Camden Arnold"),
   s("Workshop",     "Responding to Peer Review",                            "Andrew"),
-  s("Presentation", "Peer Research Presentations (Round 4)",                "All Students"),
-  s("Workshop",     "Co-authorship and Collaboration",                      "Andrew"),
+  s("Presentation", "Peer Research Presentations (Round 4)",                "Patrick Wu"),
   s("Student",      "TBD: Student-Initiated Session",                       "Students"),
+  s("Workshop",     "Co-authorship and Collaboration",                      "Andrew"),
   s("Break",        "Thanksgiving Break",                                   "&mdash;"),
   s("Synthesis",    "Semester Reflection &amp; Spring Preview",             "All")
 )

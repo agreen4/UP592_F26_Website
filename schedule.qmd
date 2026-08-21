@@ -67,7 +67,7 @@ tbl <- function(df) {
 tbl(build_schedule(fall_start, fall_sessions))
 ```
 
-**Notes:** Core workshops alternate with student presentations. No seminar the week of ACSP (Oct 8&ndash;10, Pittsburgh); conference prep runs the week before. Week 13 is reserved for student-determined content. The final session connects fall article work to spring proposal development.
+**Notes:** Core workshops alternate with student presentations. No seminar the week of ACSP (Oct 8&ndash;10, Pittsburgh); conference prep runs the week before. Week `r week_of(fall_sessions, "Student-Initiated")` is reserved for student-determined content. The final session connects fall article work to spring proposal development.
 
 ---
 
@@ -84,7 +84,7 @@ tbl(build_schedule(fall_start, fall_sessions))
 tbl(build_schedule(spring_start, spring_sessions))
 ```
 
-**Notes:** Milestone sessions accommodate both QRP and qualifying exam students. No seminar over spring break, or the week of ICUA/UAA (Apr 14&ndash;16, New York); presentation practice runs the week before. Week 14 is reserved for student-determined content. The seminar serves first- and second-year students together — Cohort A milestones are second-year work, Cohort B first-year.
+**Notes:** Milestone sessions accommodate both QRP and qualifying exam students. No seminar over spring break, or the week of ICUA/UAA (Apr 14&ndash;16, New York); presentation practice runs the week before. Week `r week_of(spring_sessions, "Student-Initiated")` is reserved for student-determined content. The seminar serves first- and second-year students together — Cohort A milestones are second-year work, Cohort B first-year.
 
 ---
 

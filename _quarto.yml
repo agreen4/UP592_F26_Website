@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: _site
+  # Render only the site pages. Without this, Quarto sweeps up every .md in the
+  # repo root — CLAUDE.md was being built into a public CLAUDE.html page and
+  # indexed in search.json.
+  render:
+    - "*.qmd"
 
 website:
   title: "UP 592: Doctoral Seminar"
